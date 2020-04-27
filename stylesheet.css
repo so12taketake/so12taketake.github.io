@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iSaraコーディング練習</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- ここからHTMLを書き始めてください -->
+    
+    <header>
+      <div class="container">
+        <img src="isaralogo.png" alt="">
+        <p >バンコクのノマドエンジニア育成講座</p>
+        <a href="#">お問い合わせ/資料請求はこちら</a>
+        <div class="header-icon-box">
+          <div class="header-icon">
+            <i class="fas fa-book fa-fw fa-2x"></i>
+          </div>
+          <p>資料請求</p>
+        </div>
+      </div>
+    </header>
+
+    <div class="top-wrapper">
+      <div class="top-wrapper-container">
+        <h2>プログラミングで<br>人生の安定を手に入れよう</h2>
+        <div class="top-wrapper-img">
+          <img src="isaralogolarge.png" alt="">
+        </div>
+        <p>バンコクのノマドエンジニア育成講座<br>iSara[イサラ]</p>
+      </div>
+    </div>
+
+    <div class="contact-wrapper">
+      <h2>まずは２０日間で、<br>月１０万円稼げるスキルを手にいれよう。</h2>
+      <p class="p1"><code>※受講料金は実質０円です。詳しくは資料請求をどうぞ。</code></p>
+      <div class="contact-btn">
+        <a href="#">お問い合わせ＆資料請求はこちら</a>
+      </div>
+      <div class="info">
+        <p>第６期生：2019年11月25日 ~ 2019年12月14日<br class="brsp">＊締め切りました</p>
+        <p>第７期生：2020年2月17日 ~ 2019年3月7日<br class="brsp">＊締め切りました</p>
+        <p>第8期生：2020年4月〜5月ごろを予定<br class="brsp">＊資料請求受付中です</p>
+      </div>
+      <div class="share-btn">
+        <a href="#">ツイート</a>
+        <a href="#">いいね！</a>
+        <a href="#">シェア</a>
+      </div>
+    </div>
+
+    <div class="text-wrapper">
+      <div class="top">
+        <h2>エンジニアとして<br class="brsp">本当の自由を手に入れるためには？</h2>
+      </div>
+      <div class="contents">
+        <p>エンジニア需要の高まりに伴い、<br class="brsp">
+          プログラミングスクールが増えています。<br>
+          しかしそこでの学習の先は、<br class="brsp">
+          提携して決められた就職先に就職すること。
+        </p>
+        <p>これで本当にいいのですか？<br>
+          日本人エンジニアはアメリカと較べて<br class="brsp">
+          給料が格段に低い。
+        </p>
+        <p>その理由がここにあり、<br class="brsp">
+          エンジニアは自分の給料を<br class="brsp">
+          コントロールすべきなのです。
+        </p>
+        <p>スキルを身につけたエンジニアは、<br class="brsp">
+          人生をコントロールすることでより自由に。<br>
+          そこで必要なのが<span>「稼ぐ力」</span>です。
+        </p>
+      </div>
+    </div>
+
+    <div class="about-isara">
+      <div class="about">
+        <p>ABOUT</p>
+      </div>
+      <div class="top">
+        <h2>ノマドエンジニア育成講座<br>
+          iSara[イサラ]とは</h2>
+      </div>
+      <p class="top-p">「 稼ぐこと 」にフォーカスした<br class="brsp">
+        Webエンジニア育成講座です。</p>
+      <div class="five-skill">
+        <h3>稼げるエンジニアに必要な<br>５つのスキルとは？</h3>
+        <div class="five-box">
+          <div class="five-box-inner">
+            <ul class="skill-list">
+              <li>
+                <div class="skill-1">
+                  <img src="skill.jpg" alt="">
+                  <p>基礎的な<br>
+                  プログラミングスキル</p>
+                </div>
+              </li>
+              <li>
+                <div class="skill-2">
+                  <img src="sales.jpg" alt="">
+                  <p>案件獲得に必要な<br>
+                  営業力</p>
+                </div></li>
+              <li>
+                <div class="skill-3">
+                  <img src="document.jpg" alt="">
+                  <p>見積もり作成から<br>
+                  納品までの知識</p>
+                </div>
+              </li>
+              <li>
+                <div class="skill-4">
+                  <img src="plusone.jpg" alt="">
+                  <p>自分の付加価値を<br>
+                  高めるスキル</p>
+                </div>
+              </li>
+              <li>
+                <div class="skill-5">
+                  <img src="connection.jpg" alt="">
+                  <p>フリーランス同士の<br>
+                  横のつながり</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="member-wrapper">
+      <h2>創業メンバー</h2>
+      <p class="top-p">実際にフリーランスとして活躍している<br class="brsp">
+        エンジニアが立ち上げました</p>
+      <div class="four-member">
+        <ul class="member-list">
+          <li>
+            <div class="member member-1">
+              <img src="keisuke_someya.jpg" alt="">
+              <div class="text">
+                <p>フリーランス講師</p>
+                <p>染谷 佳佑</p>
+                <p>ISARA (THAILAND) CO.,LTD.の代表です。学生起業の後にリクルートへ就職、その後独立し、海外移住しました。今はフリーランスとしてリモートワークで日本円を稼ぎ、外国通貨に変えて使い、海外を旅してます。営業、ブログPVアップ(最高月間150万PV)、ビジネス構築が専門です。</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="member member-2">
+              <img src="yuki.png" alt="">
+              <div class="text">
+                <p>フリーランス講師</p>
+                <p>成田　雄輝</p>
+                <p>バンコクのシェアハウスのオーナーをやりながら一年の大半をタイで過ごしています。 大学時代から今に至るまでネットだけで生計を立てているので、自由歴だけは講師陣の中で最長です！ 母親がタイ人という事もありタイには精通してますので、こちらでの生活のサポートはお任せください！</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="member member-3">
+              <img src="shohey.png" alt="">
+              <div class="text">
+                <p>フリーランスエンジニア</p>
+                <p>大滝　昇平</p>
+                <p>月の半分は東京の会社にリモートで勤めつつ、フリーでも活動しているエンジニアです。Laravel・WordPressでのWeb制作がコアスキル。立ち上げメンバーとしてカリキュラム原案制作に参画し、現在は外部アドバイザーをしています！</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="member member-4">
+              <img src="manabu.png" alt="">
+              <div class="text">
+                <p>フリーランスエンジニア</p>
+                <p>坂内　学</p>
+                <p>アドバイザーとして参画しました。新卒で海外就職して１１ヶ月後に退職。今は日本にいたり海外にいたりでゆるくフリーランスをしています。<br><br>
+                  お仕事はWebマーケティングとプログラミングが専門領域です。
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="question-wrapper">
+      <h2>よくある質問</h2>
+      <div class="question-box">
+        <ul>
+          <li class="question-list">
+            <div class="question">
+              <h3>プログラミングスキルは必要ですか？</h3>
+              <span>+</span>
+            </div>
+            <div class="answer">
+              <p>いいえ、必要ありません。しかし、iSaraでは参加費以上の金額が稼げることを保障しています。 従って、事前通話面談時点で簡単なテストを実施し、場合によってはお断りをしております。この点だけはご了承ください。</p>
+            </div>
+          </li>
+          <li class="question-list">
+            <div class="question">
+              <h3>参加費以上に稼げなかったらどうなりますか？</h3>
+              <span>+</span>
+            </div>
+            <div class="answer">
+              <p>参加費である258,000円以上の金額をトータルで稼ぐまで、無期限でサポート延長いたします。（講座参加後、週30時間以上の実践をすることと、週１回の実践報告をすることが延長条件です。）きちんと学び実践すれば、フリーランスでも収入を作ることは十分に可能です。</p>
+            </div>
+          </li>
+          <li class="question-list"> 
+            <div class="question">
+              <h3>滞在中の宿泊先はどうなりますか？</h3>
+              <span>+</span>
+            </div>
+            <div class="answer">
+              <p>宿泊費用が必要ですが、iSara提携のホステルに宿泊することになりますので心配はありません。</p>
+            </div>
+          </li>
+          <li class="question-list">
+            <div class="question">
+              <h3>滞在中の食事はどうなりますか？</h3>
+              <span>+</span>
+            </div>
+            <div class="answer">
+              <p>拠点となる新築シェアハウスの周辺に、50バーツ程度の（160円）安価な飲食店が多数あります。 日本食レストランもありますし、出前を取ることも可能です。</p>
+            </div>
+          </li>
+          <li class="question-list">
+            <div class="question">
+              <h3>追加でかかる費用はありますか？</h3>
+              <span>+</span>
+            </div>
+            <div class="answer">
+              <p>宿泊費（トータル20000円）と食費（一食150円程度）くらいです。</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <footer>
+      <p>バンコクのノマドエンジニア育成講座、iSara[イサラ]<br>
+        Copyright ©︎ <a href="#">iSara</a> All Rights Reserved.
+      </p>
+      <div class="share-btn">
+        <a href="#">ツイート</a>
+        <a href="#">いいね！</a>
+        <a href="#">シェア</a>
+      </div>
+      <p>Designed by <a href="#">Maya Ogi</a> / Developed by <a href="#">Kentaro Koga</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,646 @@
+@charset "UTF-8";
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "FOT-筑紫A丸ゴシック Std R", 游ゴシック体, YuGothic, 游ゴシック, "Yu Gothic", メイリオ, sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-weight: bold;
+}
+
+.brsp {
+  display: none;
+}
+
+/* ここからCSSを記述してください */
+header {
+  height: 75px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: 10;
+  background-color: #fff;
+}
+
+header .container {
+  max-width: 1170px;
+  margin: 0 auto;
+  position: relative;
+}
+
+header .container img {
+  width: 128px;
+  position: absolute;
+  top: 20px;
+  left: 0;
+}
+
+header .container p {
+  position: absolute;
+  top: 40px;
+  left: 128px;
+}
+
+header .container a {
+  color: #fff;
+  background-color: #DA6B64;
+  padding: 11px 40px;
+  border-radius: 25px;
+  position: absolute;
+  top: 20px;
+  right: 0;
+}
+
+header .container .header-icon-box {
+  display: none;
+}
+
+.top-wrapper {
+  margin-top: 75px;
+  height: 500px;
+  background-image: url(file:///Users/so/Desktop/html_lesson/main.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.top-wrapper .top-wrapper-container {
+  padding-top: 90px;
+}
+
+.top-wrapper .top-wrapper-container h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 28px;
+}
+
+.top-wrapper .top-wrapper-container .top-wrapper-img {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.top-wrapper .top-wrapper-container .top-wrapper-img img {
+  width: 317px;
+}
+
+.top-wrapper .top-wrapper-container p {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.contact-wrapper {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #EBB94D;
+}
+
+.contact-wrapper h2 {
+  margin-bottom: 10px;
+  color: #fff;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.contact-wrapper .p1 {
+  color: #DA6B64;
+  text-align: center;
+  font-size: 18px;
+}
+
+.contact-wrapper code {
+  background-color: #fff;
+  padding: 2px 4px;
+}
+
+.contact-wrapper .contact-btn {
+  text-align: center;
+  margin: 80px auto;
+}
+
+.contact-wrapper .contact-btn a {
+  height: 44px;
+  padding: 30px 240px;
+  color: #fff;
+  background-color: #DA6B64;
+  border-radius: 44px;
+  font-size: 28px;
+}
+
+.contact-wrapper .info p {
+  color: #fff;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 21px;
+  letter-spacing: 3px;
+  font-weight: normal;
+}
+
+.contact-wrapper .share-btn {
+  text-align: center;
+}
+
+.contact-wrapper .share-btn a {
+  color: #fff;
+  background-color: #1b95e0;
+  font-size: small;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.text-wrapper {
+  background-image: url(file:///Users/so/Desktop/html_lesson/introbottom.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.text-wrapper .top {
+  position: relative;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 15px 30px;
+}
+
+.text-wrapper .top h2 {
+  text-align: center;
+  font-size: 28px;
+}
+
+.text-wrapper .top h2::before {
+  position: absolute;
+  content: "";
+  height: 30px;
+  width: 30px;
+  top: 0;
+  left: 0;
+  border-top: 4px solid #EBB94D;
+  border-left: 4px solid #EBB94D;
+}
+
+.text-wrapper .top h2::after {
+  position: absolute;
+  content: "";
+  height: 30px;
+  width: 30px;
+  bottom: 0;
+  right: 0;
+  border-bottom: 4px solid #EBB94D;
+  border-right: 4px solid #EBB94D;
+}
+
+.text-wrapper .contents {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.text-wrapper .contents p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 24px;
+}
+
+.text-wrapper .contents p span {
+  font-weight: bold;
+  border-bottom: 5px solid #EBB94D;
+}
+
+.about-isara {
+  position: relative;
+  background-color: #f5dda9;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.about-isara .about {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-color: #EBB94D;
+  position: relative;
+}
+
+.about-isara .about p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  font-weight: normal;
+}
+
+.about-isara .top {
+  max-width: 800px;
+  height: 110px;
+  padding: 15px 30px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.about-isara .top h2 {
+  text-align: center;
+  font-size: 28px;
+}
+
+.about-isara .top h2::before {
+  position: absolute;
+  content: "";
+  height: 30px;
+  width: 30px;
+  top: 0;
+  left: 0;
+  border-top: 4px solid #EBB94D;
+  border-left: 4px solid #EBB94D;
+}
+
+.about-isara .top h2::after {
+  position: absolute;
+  content: "";
+  height: 30px;
+  width: 30px;
+  bottom: 0;
+  right: 0;
+  border-bottom: 4px solid #EBB94D;
+  border-right: 4px solid #EBB94D;
+}
+
+.about-isara .top-p {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.about-isara .five-skill {
+  border: 2px solid #EBB94D;
+  background-color: #fff;
+  padding: 30px;
+  max-width: 1170px;
+  margin: 30px auto;
+}
+
+.about-isara .five-skill h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.about-isara .five-skill .five-box {
+  text-align: center;
+}
+
+.about-isara .five-skill .five-box .five-box-inner {
+  display: inline-block;
+}
+
+.about-isara .five-skill .five-box .five-box-inner .skill-list {
+  display: flex;
+  text-align: center;
+}
+
+.about-isara .five-skill .five-box .five-box-inner .skill-list li {
+  text-align: center;
+  padding: 10px;
+}
+
+.about-isara .five-skill .five-box .five-box-inner .skill-list li p {
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.member-wrapper {
+  background-image: url(file:///Users/so/Desktop/html_lesson/teacherbg.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #fff;
+}
+
+.member-wrapper h2 {
+  font-size: 28px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.member-wrapper .top-p {
+  font-size: 16px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.member-wrapper .four-member .member-list {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+.member-wrapper .four-member .member-list li {
+  flex: auto;
+  width: 50%;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 170px;
+  margin-bottom: 30px;
+}
+
+.member-wrapper .four-member .member-list li .member {
+  position: relative;
+}
+
+.member-wrapper .four-member .member-list li .member img {
+  position: absolute;
+  top: -160px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 198px;
+  width: 198px;
+  border-radius: 50%;
+}
+
+.member-wrapper .four-member .member-list li .member .text {
+  border: 3px solid #fff;
+  padding: 40px;
+}
+
+.member-wrapper .four-member .member-list li .member .text p {
+  margin-bottom: 10px;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.question-wrapper {
+  padding: 40px 130px;
+}
+
+.question-wrapper h2 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.question-wrapper .question-box ul li {
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.question-wrapper .question-box ul li:hover {
+  background-color: #f9f9f9;
+}
+
+.question-wrapper .question-box ul li .question {
+  position: relative;
+  padding: 20px;
+  border: 1px solid #ECECEC;
+}
+
+.question-wrapper .question-box ul li .question h3 {
+  display: inline-block;
+}
+
+.question-wrapper .question-box ul li .question span {
+  position: absolute;
+  right: 20px;
+  font-weight: bold;
+  font-size: large;
+}
+
+.question-wrapper .question-box ul li .answer {
+  padding: 20px;
+  display: none;
+  border-bottom: 1px solid #ECECEC;
+}
+
+footer {
+  background-color: #ECECEC;
+  padding: 40px 15px 20px 15px;
+}
+
+footer p {
+  font-size: 10px;
+  margin-bottom: 5px;
+  text-align: center;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+
+footer p a {
+  color: #1b95e0;
+}
+
+footer .share-btn {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+footer .share-btn a {
+  color: #fff;
+  background-color: #1b95e0;
+  font-size: small;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* ------------------------------ */
+@media all and (max-width: 670px) {
+  .brsp {
+    display: block;
+  }
+  header {
+    height: 62px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    background-color: #fff;
+  }
+  header .container {
+    position: relative;
+  }
+  header .container img {
+    width: 90px;
+    position: absolute;
+    top: 25px;
+    left: 10px;
+  }
+  header .container p {
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    font-size: 10px;
+  }
+  header .container a {
+    display: none;
+  }
+  header .container .header-icon-box {
+    display: block;
+    position: absolute;
+    right: 0;
+    padding: 10px;
+    height: 62px;
+    width: 62px;
+    background-color: #DA6B64;
+  }
+  header .container .header-icon-box .header-icon i {
+    color: #fff;
+  }
+  header .container .header-icon-box p {
+    margin-top: 35px;
+    color: #fff;
+  }
+  .top-wrapper {
+    margin-top: 62px;
+    height: 312px;
+    background-image: url(file:///Users/so/Desktop/html_lesson/main.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .top-wrapper .top-wrapper-container {
+    padding-top: 30px;
+  }
+  .top-wrapper .top-wrapper-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 18px;
+  }
+  .top-wrapper .top-wrapper-container .top-wrapper-img {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .top-wrapper .top-wrapper-container .top-wrapper-img img {
+    width: 270px;
+  }
+  .top-wrapper .top-wrapper-container p {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 15px;
+  }
+  .contact-wrapper h2 {
+    font-size: 18px;
+  }
+  .contact-wrapper .p1 {
+    font-size: 14px;
+  }
+  .contact-wrapper .contact-btn {
+    margin: 60px auto;
+  }
+  .contact-wrapper .contact-btn a {
+    padding: 20px 50px;
+    font-size: 16px;
+  }
+  .contact-wrapper .info p {
+    font-size: 12px;
+    letter-spacing: 2px;
+  }
+  .text-wrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .text-wrapper .top h2 {
+    font-size: 16px;
+  }
+  .text-wrapper .contents p {
+    font-size: 14px;
+  }
+  .about-isara {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .about-isara .top h2 {
+    font-size: 20px;
+  }
+  .about-isara .top-p {
+    margin-top: 20px;
+    font-size: 15px;
+  }
+  .about-isara .five-skill .five-box .five-box-inner .skill-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .about-isara .five-skill .five-box .five-box-inner .skill-list li {
+    width: 50%;
+  }
+  .about-isara .five-skill .five-box .five-box-inner .skill-list li .skill-5 {
+    /*-----------------------------------------------*/
+  }
+  .member-wrapper h2 {
+    font-size: 18px;
+  }
+  .member-wrapper .top-p {
+    font-size: 14px;
+  }
+  .member-wrapper .four-member .member-list {
+    flex-direction: column;
+  }
+  .member-wrapper .four-member .member-list li {
+    width: 100%;
+    margin-top: 100px;
+  }
+  .member-wrapper .four-member .member-list li .member img {
+    top: -90px;
+    height: 120px;
+    width: 120px;
+  }
+  .member-wrapper .four-member .member-list li .member .text p {
+    font-size: 14px;
+  }
+  .question-wrapper {
+    padding: 20px 10px;
+  }
+  .question-wrapper h2 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 18px;
+  }
+  .question-wrapper .question-box ul li {
+    margin-bottom: 3px;
+  }
+  .question-wrapper .question-box ul li .question {
+    padding: 10px;
+  }
+  .question-wrapper .question-box ul li .question h3 {
+    font-size: 14px;
+  }
+  .question-wrapper .question-box ul li .question span {
+    right: 10px;
+  }
+  .question-wrapper .question-box ul li .answer {
+    font-size: 12px;
+    padding: 20px;
+  }
+  footer {
+    padding: 20px 7px 10px 7px;
+  }
+}
